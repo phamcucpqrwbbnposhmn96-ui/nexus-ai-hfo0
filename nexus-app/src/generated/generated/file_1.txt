@@ -1,0 +1,20 @@
+ai-prompt-spec/
+├── README.md                    # 项目首页（最重要！）
+├── LICENSE                      # MIT 许可证
+├── requirements.txt             # 依赖
+├── setup.py                     # 安装脚本
+├── .gitignore
+├── .github/workflows/ci.yml     # GitHub Actions 自动测试
+├── docs/
+│   └── ai提示词.md               # 我们刚才生成的完整指南
+├── specs/
+│   ├── 01-naming.spec.md        # Agent 命名规范
+│   ├── 02-behavior.spec.md      # Agent 行为规范
+│   └── 03-security.spec.md      # Agent 安全规范
+├── src/
+│   ├── __init__.py
+│   ├── check.py                 # 规范校验器
+│   ├── generate.py              # 自动生成文档
+│   └── __main__.py              # CLI 入口
+└── tests/
+    └── test_check.py
